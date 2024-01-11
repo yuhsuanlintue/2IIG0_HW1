@@ -1,0 +1,10 @@
+sgd (lr=0.5, momentum=0.9, weight_decay=5e-4) -> 25
+sgd (lr=0.05, momentum=0.9, weight_decay=5e-4) -> 27
+lr=0.001, momentum=0.9, weight_decay=5e-4 -> 53.356
+lr=0.001, momentum=0.8, weight_decay=5e-4 -> 32.042
+lr=0.001, momentum=1, weight_decay=5e-4 -> 27.303
+lr=0.001, momentum=0.9, weight_decay=5e-3 -> 27.303
+lr=0.001, momentum=0.9, weight_decay=5e-5 -> 50.905
+lr=5e-4, momentum=0.9, weight_decay=5e-5 -> 69.209
+lr=1e-4, momentum=0.9, weight_decay=5e-5 -> 27.303
+lr=5e-4, momentum=0.9, weight_decay=5e-5 -> 97.618 (epoch = 20)
